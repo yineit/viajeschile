@@ -1,0 +1,79 @@
+body {
+ 
+  
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  color: #000000;
+  font-size: 20px;
+}
+
+
+
+nav {
+  background-color: #FFFFFF !important;
+  box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.color-menu{
+  color: #000000;
+}
+
+.navbar-toggler {
+
+ color:#ffffff !important;
+}
+
+
+.accordion-button:not(.collapsed) {
+  color: #00A82D !important;
+  background-color: #F8F8F8 !important;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #00A82D !important;
+  border-color: #00A82D !important;
+}
+
+
+
+
+.btn-outline-success {
+  color: #00A82D !important;
+  border-color: #00A82D !important;
+}
+
+
+
+footer {
+
+  background-color: #26292c;
+  color: #FFFFFF;
+  padding: 32px 0;  
+  list-style: none;
+}
+
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+
+ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+
+
+footer li {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+footer a {
+
+  color: #FFFFFF !important;
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
