@@ -34,36 +34,93 @@
 
 <body>
 	<!-- Navegación -->
-    <nav class="navbar navbar-expand-md mb-4 fixed-top">
-        <div class="container-fluid">
-            <img src="assets/img/logo.png" width="150px">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars" style="color:#000000; font-size:28px;"></i>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                <ul class="navbar-nav  mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active color-menu" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#quienessomos">Quiénes Somos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#destinos" tabindex="-1" aria-disabled="true">Destinos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link color-menu" href="#contacto">Contacto</a>
-                    </li>
+	<nav class="navbar navbar-expand-md mb-4 fixed-top">
+		<div class="container-fluid">
+			<img src="assets/img/logo.png" width="150px">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars" style="color:#000000; font-size:28px;"></i>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+				<ul class="navbar-nav  mb-2 mb-md-0">
+					<li class="nav-item">
+						<a class="nav-link active color-menu" aria-current="page" href="#">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link color-menu" href="#quienessomos">Quiénes Somos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link color-menu" href="#destinos" tabindex="-1" aria-disabled="true">Destinos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link color-menu" href="#contacto">Contacto</a>
+					</li>
 
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-4" type="search" placeholder="Destino" aria-label="Search">
-                    <button class="btn btn-primary" type="submit">Buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-4" type="search" placeholder="Destino" aria-label="Search">
+					<button class="btn btn-primary" type="submit">Buscar</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<main>
+		<!-- Carousel -->
+		<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="assets/img/destinos/torres_del_paine.png">
+
+					<div class="container">
+						<div class="carousel-caption text-end">
+							<h1>Torres del Paine.</h1>
+							<p>Redescrubre la naturaleza, redescubre tus sentidos</p>
+							<p><a class="btn btn-lg btn-primary" href="#">Conoce los Tours</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/img/destinos/isla_de_pascua.png">
+
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Isla de Pascua</h1>
+							<p>La Polinesia situada en pleno océano Pacífico</p>
+							<p><a class="btn btn-lg btn-primary" href="#">Paquetes All Inclusive</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="assets/img/destinos/chiloe.png">
+
+					<div class="container">
+						<div class="carousel-caption text-start">
+							<h1>Chiloé </h1>
+							<p>Tierra de mitos, leyendas, tradiciones y una gastronomía incomparable</p>
+							<p><a class="btn btn-lg btn-primary" href="#">Reserva tu paquete turistico</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Anterior</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Siguiente</span>
+			</button>
+		</div>
+
+
+	</main>
 
 </body>
 
